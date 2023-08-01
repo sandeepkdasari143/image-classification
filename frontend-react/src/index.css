@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +11,22 @@
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'Poppins', "Roboto", "Open Sans", sans-serif;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.ProseMirror{
+  width: 80vw;
+  padding: 16px;
+  background-color: #454545;
+  border-radius: 16px;
+  height: 80vh;
+  overflow-y: auto;
+  font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+}
+
+.ProseMirror:focus{
+  outline: none;
 }
 

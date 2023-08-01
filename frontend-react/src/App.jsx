@@ -1,7 +1,10 @@
+import TipTapEditor from "./components/TipTapEditor"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="h-screen w-screen flex items-center justify-center">
+      <TipTapEditor />
+    </div>
   )
 }
 
