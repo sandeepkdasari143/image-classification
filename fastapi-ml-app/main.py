@@ -7,7 +7,7 @@ app = FastAPI()
 def index():
     return {
         "name": "Sandeep K. Dasari",
-        "message": "First route: Hello, World!"
+        "message": "First route: Hello, World"
     }
 
 if __name__ == '__main__':
